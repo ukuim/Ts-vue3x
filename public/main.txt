@@ -1,0 +1,11 @@
+git init
+git remote add origin https://github.com/ukuim/Ts-vue3x.git
+git remote -v
+git config --global --list
+git fetch              
+git pull origin main
+git add .
+
+git commit -m "提交相关的注释"
+
+git push origin master
